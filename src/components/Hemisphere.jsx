@@ -4,11 +4,11 @@ import SouthPic from '../images/south.jpg';
 
 const hemisphereConfig = {
     Northern: {
-        textContent: 'this is the nothern hemisphere',
+        textContent: 'you are in the nothern hemisphere',
         picture: NorthPic
     },
     Southern: {
-        textContent: 'this is the southern hemisphere',
+        textContent: 'You are in the southern hemisphere',
         picture: SouthPic
     }
 }
