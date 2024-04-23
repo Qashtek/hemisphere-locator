@@ -12,3 +12,21 @@
     height: 100vh;
     background: #666867;
 }
+
+@media screen and (max-width: 700px) {
+    .Northern div, .southern div {
+        padding: 20px;
+    }
+
+    .Northern div .image, 
+    .southern div .image {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .image img {
+        width: 100%;
+    }
+}
